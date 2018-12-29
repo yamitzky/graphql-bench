@@ -47,5 +47,8 @@ func main() {
 	})
 
 	http.Handle("/graphql", h)
+	http.Handle("/health", http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Write([]byte("ok"))
+	}))
 	http.ListenAndServe(":8081", nil)
 }

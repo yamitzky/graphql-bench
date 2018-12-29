@@ -9,6 +9,17 @@ verify_ssl = true
 graphene = "*"
 responder = "*"
 starlette = "==0.8"
+flask = "*"
+flask-graphql = "*"
+gunicorn = "*"
+uwsgi = "*"
+sanic = "*"
+sanic-graphql = "*"
+aiohttp = "*"
+cchardet = "*"
+aiodns = "*"
+uvloop = "*"
+aiohttp-graphql = "*"
 
 [requires]
 python_version = "3.7"

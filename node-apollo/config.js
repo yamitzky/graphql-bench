@@ -1,4 +1,4 @@
-const { ApolloServer, gql } = require('apollo-server');
+const { gql } = require('apollo-server')
 
 const typeDefs = gql`
 type Book {
@@ -16,12 +16,7 @@ const resolvers = {
   }
 }
 
-const server = new ApolloServer({
+module.exports = {
   typeDefs,
   resolvers,
-})
-
-
-server.listen().then(({ url }) => {
-  console.log(`🚀 Server ready at ${url}`)
-})
+}
