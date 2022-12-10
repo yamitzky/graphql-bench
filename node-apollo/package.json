@@ -4,7 +4,7 @@
     "apollo-server-express": "^2.3.1",
     "apollo-server-hapi": "^2.3.1",
     "apollo-server-koa": "^2.3.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "graphql": "^14.0.2",
     "hapi": "^17.8.1",
     "koa": "^2.6.2"
